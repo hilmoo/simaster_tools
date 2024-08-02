@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Simaster Semi-Auto EDOM",
+  "version": "1.0",
+  "description": "Mengisi Evaluasi Dosen oleh Mahasiswa (EDOM) secara semi-otomatis",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

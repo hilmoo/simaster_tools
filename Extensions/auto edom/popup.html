@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #main {
+            min-width: 200px;
+            background-color: #dededeab;
+            padding: 0.75rem 1rem;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 0.25rem 0;
+        }
+
+        #btn-run {
+            margin-top: 10px;
+            cursor: pointer;
+            background-color: #292D3E;
+            border: 0;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1rem;
+            font-weight: 600;
+            color: white;
+            transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
+        #btn-run:hover {
+            background-color: #464c66;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <form id="fill-form">
+            <label>Penilaian Dosen</label> <br>
+            <input type="radio" id="sb" name="rate-input" value="1" required="required">
+            <label for="sb">Sangat Baik</label> <br>
+            <input type="radio" id="b" name="rate-input" value="2">
+            <label for="b">Baik</label> <br>
+            <input type="radio" id="c" name="rate-input" value="3">
+            <label for="c">Cukup</label> <br>
+            <input type="radio" id="k" name="rate-input" value="4">
+            <label for="k">Kurang</label> <br>
+            <br>
+            <input id="startButton" type="submit" value="runn"></input>
+        </form>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

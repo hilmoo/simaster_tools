@@ -1,0 +1,1 @@
+Repo ini dibuat dengan tujuan untuk menambahkan fitur otomatis maupun semi-otomatis di SIMASTER.
