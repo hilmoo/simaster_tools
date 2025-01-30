@@ -1,5 +1,5 @@
 Instalasi:
-1. download melalui [link ini](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fhilmoo%2Fsimaster_tools%2Ftree%2Fmain%2Fedom)
+1. download melalui [link ini](https://download-directory.github.io/?url=https://github.com/hilmoo/simaster_tools/tree/main/Extensions/auto%20edom)
 2. ekstrak zip
 3. buka web chrome://extension (paste di search bar)
    
